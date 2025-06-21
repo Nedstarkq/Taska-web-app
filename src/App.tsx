@@ -67,6 +67,100 @@ function App() {
                 Connect with verified professionals for all your home and business needs. 
                 From plumbing to cleaning, we've got you covered.
               </p>
+
+              {/* Artisan Picture Tiles */}
+              <div className="relative mb-12">
+                <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 max-w-5xl mx-auto">
+                  {/* Plumber */}
+                  <div className="group relative overflow-hidden rounded-2xl aspect-square bg-gradient-to-br from-blue-100 to-blue-200 hover:scale-105 transition-transform duration-300">
+                    <img
+                      src="https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=300"
+                      alt="Professional Plumber"
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                      <div className="absolute bottom-2 left-2 text-white text-sm font-medium">
+                        Plumber
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Electrician */}
+                  <div className="group relative overflow-hidden rounded-2xl aspect-square bg-gradient-to-br from-yellow-100 to-yellow-200 hover:scale-105 transition-transform duration-300">
+                    <img
+                      src="https://images.pexels.com/photos/3785077/pexels-photo-3785077.jpeg?auto=compress&cs=tinysrgb&w=300"
+                      alt="Professional Electrician"
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                      <div className="absolute bottom-2 left-2 text-white text-sm font-medium">
+                        Electrician
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* CCTV Installer */}
+                  <div className="group relative overflow-hidden rounded-2xl aspect-square bg-gradient-to-br from-purple-100 to-purple-200 hover:scale-105 transition-transform duration-300">
+                    <img
+                      src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=300"
+                      alt="CCTV Installer"
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                      <div className="absolute bottom-2 left-2 text-white text-sm font-medium">
+                        CCTV Tech
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Cleaner */}
+                  <div className="group relative overflow-hidden rounded-2xl aspect-square bg-gradient-to-br from-green-100 to-green-200 hover:scale-105 transition-transform duration-300">
+                    <img
+                      src="https://images.pexels.com/photos/3768911/pexels-photo-3768911.jpeg?auto=compress&cs=tinysrgb&w=300"
+                      alt="Professional Cleaner"
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                      <div className="absolute bottom-2 left-2 text-white text-sm font-medium">
+                        Cleaner
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Van Driver */}
+                  <div className="group relative overflow-hidden rounded-2xl aspect-square bg-gradient-to-br from-red-100 to-red-200 hover:scale-105 transition-transform duration-300">
+                    <img
+                      src="https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg?auto=compress&cs=tinysrgb&w=300"
+                      alt="Van Driver"
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                      <div className="absolute bottom-2 left-2 text-white text-sm font-medium">
+                        Van Driver
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Handyman */}
+                  <div className="group relative overflow-hidden rounded-2xl aspect-square bg-gradient-to-br from-orange-100 to-orange-200 hover:scale-105 transition-transform duration-300">
+                    <img
+                      src="https://images.pexels.com/photos/3785104/pexels-photo-3785104.jpeg?auto=compress&cs=tinysrgb&w=300"
+                      alt="Handyman"
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                      <div className="absolute bottom-2 left-2 text-white text-sm font-medium">
+                        Handyman
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Floating elements for visual appeal */}
+                <div className="absolute -top-4 -left-4 w-8 h-8 bg-blue-200 rounded-full opacity-60 animate-pulse"></div>
+                <div className="absolute -bottom-6 -right-6 w-12 h-12 bg-yellow-200 rounded-full opacity-40 animate-pulse delay-1000"></div>
+                <div className="absolute top-1/2 -left-8 w-6 h-6 bg-green-200 rounded-full opacity-50 animate-pulse delay-500"></div>
+              </div>
               
               {/* Stats */}
               <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
